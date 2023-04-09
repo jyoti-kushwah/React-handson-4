@@ -1,0 +1,66 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body{
+  margin: 0;
+  background: Linear-gradient( 45deg, white,darkblue);
+}
+
+.container{
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(darkblue,white);
+}
+.nav{
+  justify-content: space-between;
+  font-size: xx-large;
+  /* color: brown; */
+  font-style: oblique;
+  font-weight: bold;
+}
+.Home{
+  position: absolute;
+  color: white;
+  left: 20px;
+}
+.contact{
+  position: absolute;
+  color: white;
+  right: 20px;
+}
+.students{
+  font-size: x-large;
+  color:white;
+  font-style: normal;
+}
+.tab{
+  color: crimson;
+  font-size: xx-large;
+  font-style: italic;
+}
+table,td,th{
+  
+   border: 2px solid rgb(49, 31, 3);
+   background-image: linear-gradient(45deg,darkblue,white);
+}
+.tr{
+  color: rgb(206, 224, 241);
+  font-size: xx-large;
+  font-style: oblique;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  height: 550px;
+}
